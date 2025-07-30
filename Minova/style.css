@@ -1,0 +1,171 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Header and Navbar */
+header {
+  background: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+header {
+  background: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* soft shadow */
+}
+header {
+  border-bottom: 1px solid #ddd;
+}
+header {
+  background: linear-gradient(to right, #ffffff, #f1f5ff);
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.nav-links a:hover {
+  color: #6a00ff;
+  text-decoration: underline;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #0a1a5c;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #0a1a5c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hero sections */
+.hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* White text sections */
+#home .content,
+#creative .content,
+#social .content,
+#agency .content {
+  color: white;
+}
+
+/* Black text sections */
+#corporate .content,
+#seo .content,
+#marketing .content {
+  color: black;
+}
+
+/* Headings and paragraphs */
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.btn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: white;
+  color: #0a1a5c;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Contact Form */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  color: #0a1a5c;
+}
+
+.contact-form label {
+  color: #0a1a5c;
+  font-weight: bold;
+}
+
+.contact-form .btn {
+  background-color: #0a1a5c;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-form .btn:hover {
+  background-color: white;
+  color: #0a1a5c;
+}
+/* Scroll fade animation */
+.hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Shrinking navbar */
+header.shrink {
+  padding: 5px 20px;
+  background: #ffffffee; /* slightly transparent */
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
